@@ -1,0 +1,340 @@
+taxon_id,scientific_name,common_name,domestication_status
+1,abelmoschus sp.,Abelmoschus species,domesticated
+2,abutilon sp.,Abutilon species,non-domesticated
+3,acacia sp.,Acacia species,non-domesticated
+4,acacia concinna,Shikakai,non-domesticated
+5,acalypha sp.,Acalypha species,non-domesticated
+6,aegilops sp.,Aegilops species,non-domesticated
+7,aegilops tauschii,Tausch's goatgrass,non-domesticated
+8,aeluropus sp.,Aeluropus species,non-domesticated
+9,aerva sp.,Aerva species,non-domesticated
+10,agropyron sp.,Agropyron species,non-domesticated
+11,albizia lebbeck,Lebbeck,non-domesticated
+12,allium sativum,Garlic,non-domesticated
+13,amaranthus sp.,Amaranthus species,domesticated
+14,amygdalus sp.,Amygdalus species,domesticated
+15,andropogon sp.,Andropogon species,non-domesticated
+16,apiaceae,Apiaceae family,non-domesticated
+17,areca sp.,Areca species,non-domesticated
+18,argemone mexicana,Mexican poppy,non-domesticated
+19,arundinella metzii,Arundinella,non-domesticated
+20,arundinella pumpila,Arundinella,non-domesticated
+21,artemisia sp.,Artemisia species,non-domesticated
+22,asphodelus sp.,Asphodelus species,non-domesticated
+23,asteraceae,Asteraceae family,non-domesticated
+24,astragalus sp.,Astragalus species,non-domesticated
+25,atriplex sp.,Atriplex species,non-domesticated
+26,avena sp.,Avena species,domesticated
+27,avena sativa,Oat,non-domesticated
+28,boerhavia diffusa,Punarnava,non-domesticated
+29,bombax ceiba,Silk cotton tree,non-domesticated
+30,boraginaceae,Boraginaceae family,non-domesticated
+31,brassica  sp.,Brassica species,domesticated
+32,brassica juncea,Brown mustard,domesticated
+33,brachiaria sp.,Brachiaria species,non-domesticated
+34,bracharia reptans,Sprawling Signalgrass,non-domesticated
+35,brachiaria ramosa,Signalgrass,non-domesticated
+36,bromus sp.,Bromus species,non-domesticated
+37,cannabis sp,Cannabis species,domesticated
+38,cannabis satius,Hemp,domesticated
+39,capparis decidua,Ker (Indian caper),non-domesticated
+40,carex sp.,Carex species,non-domesticated
+41,carex spicate,Carex species,non-domesticated
+42,carissa carandas,Bengal currant,non-domesticated
+43,caryophyllaceae,Caryophyllaceae family,non-domesticated
+44,celosia sp.,Celosia species,non-domesticated
+45,cenchrus sp.,Cenchrus species,non-domesticated
+46,cenchrus ciliaris,Buffelgrass,non-domesticated
+47,chenopodiaceae,Chenopodiaceae family,non-domesticated
+48,chenopodiaceae/amaranthaceae,Chenopodiaceae/Amaranthaceae family,non-domesticated
+49,chenopodium sp.,Chenopodium species,non-domesticated
+50,chenopodium album,White Goosefoot,non-domesticated
+51,chloris sp.,Chloris species,non-domesticated
+52,chrysopogon zizanoides,East Indian lovegrass,non-domesticated
+53,cicer sp.,Cicer species,domesticated
+54,cicer arietinum,Chickpea,domesticated
+55,citris limon,Lemon,non-domesticated
+56,citrullus cf. colocynthis,Colocynth,non-domesticated
+57,citrullus lanatus,Watermelon,non-domesticated
+58,cleome sp.,Cleome species,non-domesticated
+59,cleome viscosa,Sticky spiderflower,non-domesticated
+60,coccinia cordifolia,Little ivy gourd,non-domesticated
+61,coccinia grandis,Ivy gourd,non-domesticated
+62,coix sp.,Coix species,domesticated
+63,coix lacryma-jobi,Job's Tears,non-domesticated
+64,commelina sp.,Commelina species,non-domesticated
+65,commelina benghalensis,Bengal dayflower,non-domesticated
+66,convolvulaceae,Convolvulaceae family,non-domesticated
+67,convolvulus sp.,Convolvulus species,non-domesticated
+68,cordia sp.,Cordia species,non-domesticated
+69,cordia dichotoma,Fragrant manjack,non-domesticated
+70,corchorus sp.,Corchorus species,domesticated
+71,coriandrum sativum,Coriander,non-domesticated
+72,crotalaria hirta,Sunn hemp,domesticated
+73,crucifera (cf. lepidium),Peppergrass,non-domesticated
+74,curcurbitaceae (luffa type),Luffa (gourd) type,non-domesticated
+75,cucumis sp.,Cucumis species,domesticated
+76,cucumis melo,Melon,non-domesticated
+77,curcurbita sp.,Curcurbita species,non-domesticated
+78,cymbopogon martini,Palmarosa,non-domesticated
+79,cyperaceae type,Sedge family,non-domesticated
+80,cyperus sp.,Cyperus species,non-domesticated
+81,cyperus iria,Ricefield sedge,non-domesticated
+82,cyperus michelianus,Umbrella sedge,non-domesticated
+83,cyperus rotunda,Nutgrass,non-domesticated
+84,cynodon dactylon,Bermuda grass,non-domesticated
+85,dactyloctenium aegpytium,Crowfoot grass,non-domesticated
+86,desmodium sp.,Desmodium species,non-domesticated
+87,dicanthium sp.,Dicanthium species,non-domesticated
+88,digeria muricata,Tall bur grass,non-domesticated
+89,digitaria sp.,Digitaria species,non-domesticated
+90,digiteria ascendens,Knotroot fox-tail grass,non-domesticated
+91,digitaria/setaria,Digitaria species,non-domesticated
+92,datura sp.,Datura species,non-domesticated
+93,echinochloa sp.,Echinochloa species,non-domesticated
+94,echinochloa colona,Jungle rice,non-domesticated
+95,echinochloa crus-galli,Barnyard grass,non-domesticated
+96,echinochloa stagnina,Indian barnyard grass,non-domesticated
+97,elaeagnus augustifolia,Russian olive,non-domesticated
+98,eleocharis sp.,Eleocharis species,non-domesticated
+99,eleusine sp.,Eleusine species,non-domesticated
+100,eleusine coracana,Finger millet,domesticated
+101,elionurus royleanus,Elionurus,non-domesticated
+102,ephedra sp.,Ephedra species,non-domesticated
+103,eragrostis sp.,Eragrostis species,non-domesticated
+104,eriophorum sp.,Eriophorum species,non-domesticated
+105,euphorbia sp.,Euphorbia species,non-domesticated
+106,euphorbia granulata,Spotted spurge,non-domesticated
+107,euphorbia prostrata,Prostrate spurge,non-domesticated
+108,euphorbia pycnostegia,Dwarf spurge,non-domesticated
+109,euphorbia thymifolia,Thymeleaf spurge,non-domesticated
+110,fabaceae,Fabaceae family,non-domesticated
+111,ficus sp.,Ficus species,domesticated
+112,ficus religiosa or racemosa,Sacred fig,domesticated
+113,fimbristylus sp.,Fimbristylus species,non-domesticated
+114,fimbristylus ovata,NA,non-domesticated
+115,fimbristylua tenera,NA,non-domesticated
+116,fumaria sp.,Fumaria species,non-domesticated
+117,fumaria officinalis,Common fumitory,non-domesticated
+118,galium sp.,Galium species,non-domesticated
+119,glossocardia sp. cf. bosvallia,Indian daisy,non-domesticated
+120,gossypium arboreum or herbaceum,Cotton,non-domesticated
+121,heliotropium bacciferum,Salt Heliotrope,non-domesticated
+122,hordeum sp.,Hordeum species,domesticated
+123,hordeum vulgare,Barley,domesticated
+124,hordeum  vulgare 6-row hulled,Barley,domesticated
+125,hordeum vulgare nudeum,Naked barley,non-domesticated
+126,hordeum vulgare nudum 6-row naked,Naked barley,non-domesticated
+127,hordeum hulled,Naked barley,non-domesticated
+128,hordeum naked,Naked barley,non-domesticated
+129,hordeum 2 row,Naked barley,non-domesticated
+130,hordeum distichum,Distichous barley,non-domesticated
+131,hordeum sphaerococcum,Round-seeded barley,non-domesticated
+132,hordeum spontaneum,Wild barley,non-domesticated
+133,hordeum murinum,Wall barley,non-domesticated
+134,hordeum/triticum,Barley-wheat hybrid,non-domesticated
+135,impatiens sp.,Impatiens species,non-domesticated
+136,impatiens balsamina,Garden balsam,non-domesticated
+137,indigofera sp.,Indigofera species,domesticated
+138,indigofera astragalina,Assam indigo,domesticated
+139,ipomoea sp.,Ipomoea species,non-domesticated
+140,juglans regia,Walnut,domesticated
+141,lablab purpureus,Hyacinth bean,non-domesticated
+142,lathyrus  sp.,Lathyrus species,non-domesticated
+143,lathyrus aphaca,Lathyrus aphaca,domesticated
+144,lathyrus hirsutus,Caley pea,non-domesticated
+145,lathyrus sativus,Grass pea,domesticated
+146,lathyrus/vicia,Vetch,non-domesticated
+147,lens sp.,Lens species,domesticated
+148,lens culinaris,Lentil,domesticated
+149,linum sp.,Linum species,domesticated
+150,linum usitatissimum,Flax,domesticated
+151,lolium sp.,Lolium species,non-domesticated
+152,lotus sp.,Lotus species,non-domesticated
+153,lycium sp.,Lycium species,non-domesticated
+154,macrotyloma sp.,Macrotyloma species,domesticated
+155,macrotyloma uniflorum,Horse gram,domesticated
+156,malvaceae,Malvaceae family,non-domesticated
+157,mazus pumilus,Japanese Mazus,non-domesticated
+158,medicago sp.,Medicago species,non-domesticated
+159,medicago/astragalus/melilotis,Legume,non-domesticated
+160,medicago/melilotis/trifolium,Sweet Yellow Clover,non-domesticated
+161,melilotus sp.,Melilotus species,non-domesticated
+162,melilotus/trifolium,Sweet Clover,non-domesticated
+163,melilotus indica,Indian sweet clover,non-domesticated
+164,melochia sp.,Melochia species,non-domesticated
+165,mimosoideae,Mimosoideae,non-domesticated
+166,nannorrhops ritchiana,Makran date palm,domesticated
+167,neptunia sp.,Neptunia species,non-domesticated
+168,onobrychis sp.,Onobrychis species,non-domesticated
+169,oryza sp.,Oryza species,domesticated
+170,oryza sativa,Rice,domesticated
+171,panicum sp.,Panicum species,non-domesticated
+172,pancium miliaceum,Proso millet,domesticated
+173,panicum sumatrense,Little millet,domesticated
+174,papaveraceae,Papaveraceae family,non-domesticated
+175,papaver sp.,Papaver species,domesticated
+176,papilionaceae,Papilionaceae family,non-domesticated
+177,paspalum sp.,Paspalum species,non-domesticated
+178,peltophorum sp.,Peltophorum species,non-domesticated
+179,pennisetum sp.,Pennisetum species,domesticated
+180,pennisetum glaucum,Pearl millet,domesticated
+181,pennisetum typhoides,Pearl millet,domesticated
+182,phalaris sp.,Phalaris species,non-domesticated
+183,phalaris minor,Little canary grass,non-domesticated
+184,phoenix sp.,Phoenix species,domesticated
+185,phoenix dactylifera,Date palm,domesticated
+186,phragmites karka,Giant reed,non-domesticated
+187,phyllanthus emblica,Indian gooseberry,domesticated
+188,phyllanthus fraternus,Stonebreaker,non-domesticated
+189,pistacia vera,Pistachio,domesticated
+190,pisum sp.,Pisum species,domesticated
+191,pisum arvense,Field pea,domesticated
+192,pisum granum,Grain pea,domesticated
+193,pisum sativum,Garden pea,domesticated
+194,pisum/vicia,Pea Vetch,non-domesticated
+195,plantago cf. ovata,Psyllium,non-domesticated
+196,poa sp.,Poa species,non-domesticated
+197,poaceae,Poaceae family,non-domesticated
+198,polygala sp.,Polygala species,non-domesticated
+199,polygonum sp.,Polygonum species,non-domesticated
+200,polygonum plebeium,Knotgrass,non-domesticated
+201,polygonaceae,Polygonaceae family,non-domesticated
+202,portulaca sp.,Portulaca species,non-domesticated
+203,portulaca oleraceae,Portulaca oleraceae family,non-domesticated
+204,psidium sp.,Psidium species,non-domesticated
+205,prosopis sp.,Prosopis species,non-domesticated
+206,prosopis cineraria,Khejri,non-domesticated
+207,prunus sp.,Prunus species,non-domesticated
+208,prunus dulcis,Almond,non-domesticated
+209,rorippa sp.,Rorippa species,non-domesticated
+210,ricinus communis,Castor bean,domesticated
+211,rumex sp.,Rumex species,non-domesticated
+212,rumex crispus,Curly dock,non-domesticated
+213,rumex dentatus,Bluntleaf dock,non-domesticated
+214,saccharum sp.,Saccharum species,domesticated
+215,sapindus cf. emarginatus,Soapberry,non-domesticated
+216,sapindus cf. laurifolius,Soapberry,non-domesticated
+217,scirpus sp.,Scirpus species,non-domesticated
+218,scirpus lateriflorus,Lateral-flower bulrush,non-domesticated
+219,schoenoplectus litoralis,Coastal bulrush,non-domesticated
+220,scleria sp.,Scleria species,non-domesticated
+221,seb,NA,non-domesticated
+222,sesamum indicum,Sesame,domesticated
+223,sesamum malabaracum,Malabar sesame,domesticated
+224,setaria sp.,Setaria species,non-domesticated
+225,setaria glauca,Yellow bristlegrass,non-domesticated
+226,setaria italica,Foxtail millet,domesticated
+227,setaria pumila,Little millet,domesticated
+228,setaria tomentosa,Bristly foxtail,non-domesticated
+229,setaria verticillata,Rough bristlegrass,non-domesticated
+230,setaria viridis,Green foxtail,non-domesticated
+231,sida sp.,Sida species,non-domesticated
+232,silene  sp.,Silene species,non-domesticated
+233,siteria sp.,Siteria species,non-domesticated
+234,small millet,Small Millet,non-domesticated
+235,big millet,Big Millet,non-domesticated
+236,solanaceae,Solanaceae family,non-domesticated
+237,solanum sp.,Solanum species,non-domesticated
+238,solanum ducamara,Bittersweet nightshade,non-domesticated
+239,solarium sp.,Solarium species,non-domesticated
+240,sorghum sp.,Sorghum species,non-domesticated
+241,sorghum bicolor,Sorghum,non-domesticated
+242,spermocoe sp.,Spermocoe species,non-domesticated
+243,stellaria sp.,Stellaria species,non-domesticated
+244,stellaria nemorum,Wood stitchwort,non-domesticated
+245,tamarindus indica,Tamarind,domesticated
+246,tamarix sp.,Tamarix species,non-domesticated
+247,terminalia chebula,Chebulic myrobalan,non-domesticated
+248,tradescantia sp.,Tradescantia species,non-domesticated
+249,tragus sp.,Tragus species,non-domesticated
+250,trianthema  sp.,Trianthema species,non-domesticated
+251,trianthema/mollugo,NA,non-domesticated
+252,trianthema decandra,Decandra carpetweed,non-domesticated
+253,trianthema pentandra,Pentandra carpetweed,non-domesticated
+254,trianthema portulcastrum,Carpetweed,non-domesticated
+255,trianthema triquetra,Triquetra carpetweed,non-domesticated
+256,tribulus sp.,Tribulus species,non-domesticated
+257,trifolium sp.,Trifolium species,non-domesticated
+258,trifolium alexandrinum,Egyptian clover,non-domesticated
+259,trifolium repens,White clover,non-domesticated
+260,trigonella sp.,Trigonella species,domesticated
+261,trigonella foenum-graecum,Fenugreek,domesticated
+262,trigonella occulta,Wild fenugreek,non-domesticated
+263,triticum sp.,Triticum species,domesticated
+264,triticum aestivum,Bread wheat,non-domesticated
+265,triticum aestivum-compactum,Club wheat,non-domesticated
+266,triticum aestivum-durum,Durum wheat,non-domesticated
+267,triticum compactum,Club wheat,non-domesticated
+268,triticum dicoccum,Emmer wheat,non-domesticated
+269,triticum monoccocum-dicoccum,Einkorn-emmer wheat hybrid,non-domesticated
+270,triticum monococcum,Einkorn wheat,non-domesticated
+271,triticum sphaerococcum,Spelt wheat,non-domesticated
+272,verbascum sp.,Verbascum species,non-domesticated
+273,vicia sp.,Vicia species,non-domesticated
+274,vicia hirsuta,Hairy vetch,non-domesticated
+275,vicia sativa,Common vetch,non-domesticated
+276,vigna sp.,Vigna species,domesticated
+277,vigna aconitifolia,Moth bean,non-domesticated
+278,vigna catjang,Cowpea,domesticated
+279,vigna mungo,Black gram,non-domesticated
+280,vigna mungo/radiata,Black gram/mung bean hybrid,non-domesticated
+281,vigna radiata,Mung bean,domesticated
+282,vigna trilobata,Trilobata bean,non-domesticated
+283,vigna unguiculata,Cowpea,domesticated
+284,vitis vinifera,Grape vine,domesticated
+285,zaleya sp.,Zaleya species,non-domesticated
+286,zaleya decandra,Decandra zaleya,non-domesticated
+287,ziziphus sp.,Ziziphus species,domesticated
+288,ziziphus jujuba,Jujube,domesticated
+289,ziziphus mauritiana,Indian jujube,domesticated
+290,ziziphus nummularia,Wild jujube,non-domesticated
+291,indeterminate,NA,non-domesticated
+292,indet millet,Millet,non-domesticated
+293,indeterminate fruit,NA,non-domesticated
+294,indeterminate oilseed/fibre,NA,non-domesticated
+295,indeterminate curled embryo,NA,non-domesticated
+296,indeterminate round seed,NA,non-domesticated
+297,unid seed,NA,non-domesticated
+298,unid flower,NA,non-domesticated
+299,unknown grass,NA,non-domesticated
+300,non-crop,NA,non-domesticated
+301,wild fruit,NA,non-domesticated
+302,wild grass,NA,non-domesticated
+303,wild herbs,NA,non-domesticated
+304,setaria pumila hulled,Yellow Foxtail,non-domesticated
+305,poaceae inflorence,Poaceae species,non-domesticated
+306,poaceae glume,Poaceae species,non-domesticated
+307,poaceae node,Poaceae species,non-domesticated
+308,poaceae spikelet base,Poaceae species,non-domesticated
+309,dactyloctenium aegyptium inflorecence,Crowfoot Grass,non-domesticated
+310,t.  f-t  rachis,NA,non-domesticated
+311,t. aestivum f-t  rachis,NA,non-domesticated
+312,t. aestivum glume base,NA,non-domesticated
+313,h. sp. rachis,NA,non-domesticated
+314,cf. h. rachis,NA,non-domesticated
+315,h. vulagre rachis,NA,non-domesticated
+316,h. vulagre rachis 6-row,NA,non-domesticated
+317,h. vulagre rachis 2-row,NA,non-domesticated
+318,h/t rachis,NA,non-domesticated
+319,cereal rachii,NA,non-domesticated
+320,grass culm,Grass Culm,non-domesticated
+321,oryza husk,Oryza species,domesticated
+322,oryza spikelet base,Oryza species,domesticated
+323,oryza spikelet base (domesticated),Oryza species,domesticated
+324,oryza spikelet base (wild),Oryza species,domesticated
+325,oryza spikelet base (immature),Oryza species,domesticated
+326,oryza spikelet base (silicified),Oryza species,domesticated
+327,brachiaria ramosa inflor,Browntop Millet,non-domesticated
+328,panicum sumarense inflor,Little Millet,non-domesticated
+329,setaria spikelets,Setaria species,non-domesticated
+330,seb inflor,NA,non-domesticated
+331,seed by-products,NA,non-domesticated
+332,fabaceae leaf frag,Legume,non-domesticated
+333,hypanthodium (type of inflorescence),NA,non-domesticated
+334,parenchyma,Animal Tissue,non-domesticated
+335,rhizomes,Rhizomes,non-domesticated
+336,charred grains,NA,non-domesticated
+337,uncharred phoenix sp.,Phoenix species,domesticated
+338,uncharred ficus religiosa,Sacred fig,domesticated
+339,impressions,NA,non-domesticated

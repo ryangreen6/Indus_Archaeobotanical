@@ -1,0 +1,135 @@
+---
+title: "visualize_data"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+rm(list = ls())
+
+library(tidyverse)
+library(here)
+library(dplyr)
+library(tidyr)
+
+# Libraries for mapping
+library(rnaturalearth)
+library(sf)
+library(tmap)
+
+# Database Libraries
+library(DBI)
+library(duckdb)
+```
+
+```{r}
+# Load in `archbot` database
+archbot <- DBI::dbConnect(duckdb::duckdb(), dbdir="/Users/ryangreen/Documents/Main/UCSB_MEDS/EDS_213_DataManagement/Indus_Archaeobotanical/archbot.db")
+```
+
+```{r}
+# List tables in database
+DBI::dbListTables(archbot)
+```
+
+```{r}
+# Save database tables to R dataframes
+samples <- tbl(archbot, 'samples')
+relation_table <- tbl(archbot, 'relation_table')
+taxa <- tbl(archbot, 'taxa')
+```
+
+```{r}
+# SQL function and query to find how many domesticated species are in a sample of choice
+st_sql <- read_file("sql/sample_taxa.sql")
+
+sample_taxa <- function(sample_id) {
+  dbGetQuery(archbot, st_sql, params = list(sample_id))
+}
+
+site1_taxa <- sample_taxa(1)
+```
+
+```{r}
+# SQL query to find the sum of how many domesticated species there are at every site
+dom_count_all_sql <- read_file("sql/dom_count_all.sql")
+sites_dom_count <- dbGetQuery(archbot, dom_count_all_sql)
+```
+
+```{r}
+# SQL query to find the number of domesticated species from each respective sample
+sample_dom_count <- read_file("sql/sample_dom_count.sql")
+samples <- dbGetQuery(archbot, sample_dom_count)
+```
+
+```{r}
+# Query to find the top ten most common taxa in all samples, and their scientific/common names
+most_common_taxa <- read_file("sql/most_common_taxa_all.sql")
+most_common_taxa <- dbGetQuery(archbot, most_common_taxa)
+```
+
+# Data Visualization
+## Making a bar chart of the maximum number of domesticated species found in each sample
+
+```{r}
+# Finding the maximum domesticated species from each sample
+samples_max <- samples %>%
+  group_by(site_name) %>%
+  slice_max(domesticated_count, n = 1, with_ties = FALSE) %>%
+  ungroup()
+
+# Factorize
+samples_max <- samples_max %>%
+  mutate(site_name = factor(site_name, levels = rev(unique(site_name))))
+```
+
+```{r}
+# Plot samples, through samples_max
+ggplot(samples_max, aes(x = site_name, y = domesticated_count)) +
+  geom_col(fill = "darkgreen") +
+  geom_text(
+    aes(label = domesticated_count),
+    hjust = -0.5,
+    size = 3.2,
+    fontface = "italic"
+  ) +
+  coord_flip() +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  labs(
+    x = "Site Name",
+    y = "Max Species Count"
+  ) +
+  labs(title = 'Domesticated Species in Indus Valley Archaeobotanical Samples',
+       subtitle = 'By Site Name and Maximum Domesticated Species Count') +
+  theme_minimal() +
+  theme(axis.text.y = element_text(face = "bold"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5),
+        panel.grid.major.y = element_blank(),
+        panel.background = element_rect(fill = 'linen'),
+        panel.grid.major = element_line(color = 'antiquewhite3'))
+```
+
+```{r}
+# Plot most_common_taxa
+ggplot(most_common_taxa, aes(x = reorder(common_name, occurrence_count), y = occurrence_count)) +
+  geom_col(fill = 'saddlebrown') +
+    geom_text(
+    aes(label = occurrence_count),
+    hjust = -0.5,
+    size = 3.2,
+    fontface = "italic"
+  ) +
+  coord_flip() +
+  xlab("Species Common Name") +
+  ylab("Occurrence Count") +
+  labs(title = 'Top Ten Domesticated Species in all Samples') +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+    panel.background = element_rect(fill = 'burlywood1'),
+    panel.grid.major = element_line(color = 'burlywood3'),
+    panel.grid.minor = element_line(color = 'burlywood3'),
+    panel.grid.major.y = element_blank())
+```
+

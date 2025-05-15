@@ -1,0 +1,111 @@
+sample_id,site_id,site_name,period_code,period_desc,botanical,flotation,longitude,latitude
+2,1,Alamgirpur,MH,Mature Harappan - 2500-1900BC,1,1,77.49916667,29.05722222
+1,1,Alamgirpur,H,"Harappan, period undefined - 3200-1500BC",1,1,77.49916667,29.05722222
+3,2,Allahdino,MH,Mature Harappan - 2500-1900BC,1,0,67.3,24.95
+5,3,Babar Kot,H,"Harappan, period undefined - 3200-1500BC",1,1,71.5708,22.2678
+4,3,Babar Kot,EH,Early Harappan - 3200-2500BC,1,1,71.5708,22.2678
+8,3,Babar Kot,MH,Mature Harappan - 2500-1900BC,1,1,71.5708,22.2678
+7,3,Babar Kot,Late MH,latter part of MH,1,1,71.5708,22.2678
+6,3,Babar Kot,LH,Late harappan - 1900-1500BC,1,1,71.5708,22.2678
+9,4,Bagasra,MH,Mature Harappan - 2500-1900BC,1,0,70.6203,23.0368
+10,5,Bahola,LH,Late harappan - 1900-1500BC,1,1,76.788,29.806
+11,6,Balakot,EH,Early Harappan - 3200-2500BC,1,1,66.725,25.475
+12,6,Balakot,MH,Mature Harappan - 2500-1900BC,1,1,66.725,25.475
+13,7,Balathal,LH,Late harappan - 1900-1500BC,1,0,76.38777778,29.67083333
+14,8,Balu,EH,Early Harappan - 3200-2500BC,1,1,76.38777778,29.67083333
+15,8,Balu,MH,Mature Harappan - 2500-1900BC,1,1,76.38777778,29.67083333
+16,9,Banawali,EH,Early Harappan - 3200-2500BC,1,0,75.39222222,29.59833333
+17,9,Banawali,MH,Mature Harappan - 2500-1900BC,1,0,75.39222222,29.59833333
+18,10,Bhirrana,H,"Harappan, period undefined - 3200-1500BC",1,0,75.54805556,29.55527778
+19,11,Burj,EH,Early Harappan - 3200-2500BC,1,1,75.64111111,29.65638889
+20,12,Burthana-Tigrana,2000-2500BC,2000-2500BC,1,1,76.13666667,28.8875
+21,13,Chanhu-Daro,H,"Harappan, period undefined - 3200-1500BC",1,0,68.3322,26.1708
+22,14,Dabli vas Chugta,MH,Mature Harappan - 2500-1900BC,1,1,74.1711,29.5275
+23,15,Daimabad,H,"Harappan, period undefined - 3200-1500BC",1,0,74.6007,19.4228
+24,16,Datrana,EH,Early Harappan - 3200-2500BC,1,1,71.11388889,23.76666667
+25,17,Daulatpur,LH,Late harappan - 1900-1500BC,1,0,76.9397,29.9643
+26,18,Farmana,EH,Early Harappan - 3200-2500BC,1,1,76.3084,29.0406
+28,18,Farmana,MH,Mature Harappan - 2500-1900BC,1,1,76.3084,29.0406
+27,18,Farmana,H,"Harappan, period undefined - 3200-1500BC",1,1,76.3084,29.0406
+29,19,Harappa,EH,Early Harappan - 3200-2500BC,1,1,72.8667,30.6333
+32,19,Harappa,MH,Mature Harappan - 2500-1900BC,1,1,72.8667,30.6333
+31,19,Harappa,LH,Late harappan - 1900-1500BC,1,1,72.8667,30.6333
+30,19,Harappa,H,"Harappan, period undefined - 3200-1500BC",1,1,72.8667,30.6333
+33,20,Hulas,H,"Harappan, period undefined - 3200-1500BC",1,0,77.3595,29.7044
+34,20,Hulas,LH,Late harappan - 1900-1500BC,1,1,77.3595,29.7044
+37,21,Juni Kuran,MH,Mature Harappan - 2500-1900BC,1,0,69.7651,23.9623
+36,21,Juni Kuran,LH,Late harappan - 1900-1500BC,1,0,69.7651,23.9623
+35,21,Juni Kuran,H,"Harappan, period undefined - 3200-1500BC",1,0,69.7651,23.9623
+39,22,Kalibangan,MH,Mature Harappan - 2500-1900BC,1,0,74.1299,29.4728
+38,22,Kalibangan,H,"Harappan, period undefined - 3200-1500BC",1,0,74.1299,29.4728
+41,23,Kanmer,EH,Early Harappan - 3200-2500BC,1,1,70.8632,23.4179
+44,23,Kanmer,MH,Mature Harappan - 2500-1900BC,1,1,70.8632,23.4179
+43,23,Kanmer,LH,Late harappan - 1900-1500BC,1,1,70.8632,23.4179
+42,23,Kanmer,H,"Harappan, period undefined - 3200-1500BC",1,0,70.8632,23.4179
+40,23,Kanmer,2800-1500BC,2800-1500BC,1,0,70.8632,23.4179
+45,24,Karanapura,EH,Early Harappan - 3200-2500BC,0,0,75.0972,29.1081
+46,24,Karanapura,MH,Mature Harappan - 2500-1900BC,0,0,75.0972,29.1081
+48,25,Khirsara,MH,Mature Harappan - 2500-1900BC,1,1,69.05,23.45
+47,25,Khirsara,2800-2000BC,2800-2000BC,1,0,69.05,23.45
+49,26,Kot Diji,H,"Harappan, period undefined - 3200-1500BC",1,0,68.7046,27.347
+50,26,Kot Diji,MH,Mature Harappan - 2500-1900BC,0,0,68.7046,27.347
+51,27,Kunal,EH,Early Harappan - 3200-2500BC,1,1,75.65888889,29.62138889
+52,27,Kunal,LH,Late harappan - 1900-1500BC,1,0,75.65888889,29.62138889
+55,28,Kuntasi,MH,Mature Harappan - 2500-1900BC,1,0,70.6001,22.8922
+54,28,Kuntasi,LH,Late harappan - 1900-1500BC,1,0,70.6001,22.8922
+53,28,Kuntasi,H,"Harappan, period undefined - 3200-1500BC",1,0,70.6001,22.8922
+56,29,Laduwala,2300-2800BC,2300-2800BC,1,1,75.57,29.07
+57,30,Lak Largai,EH,Early Harappan - 3200-2500BC,1,1,70.5167,32.8167
+58,31,Lewan,EH,Early Harappan - 3200-2500BC,1,0,70.5833,32.8833
+60,32,Loteshwar,H,"Harappan, period undefined - 3200-1500BC",1,0,71.8366,23.6004
+59,32,Loteshwar,EH,Early Harappan - 3200-2500BC,1,1,71.8366,23.6004
+62,33,Lothal,MH,Mature Harappan - 2500-1900BC,1,0,72.2497,22.5236
+61,33,Lothal,LH,Late harappan - 1900-1500BC,1,0,72.2497,22.5236
+63,34,Madina 3,LH,Late harappan - 1900-1500BC,1,0,76.4199,28.9197
+64,35,Mahorana,2100-1900BC (Bara),2100-1900BC (Bara),1,0,75.95,30.4833
+65,36,Malvan,LH,Late harappan - 1900-1500BC,1,0,72.71666667,21.1
+66,37,MSD I,MH,Mature Harappan - 2500-1900BC,1,1,76.15305556,29.41
+67,38,MSD VII,EH,Early Harappan - 3200-2500BC,1,1,75.975,29.32361111
+69,38,MSD VII,MH,Mature Harappan - 2500-1900BC,1,1,75.975,29.32361111
+68,38,MSD VII,LH,Late harappan - 1900-1500BC,1,1,75.975,29.32361111
+70,39,Mehrgarh VII,H,"Harappan, period undefined - 3200-1500BC",1,0,67.6124,29.4313
+71,40,Miri Qalat,EH,Early Harappan - 3200-2500BC,1,1,63.0125,26.03333333
+72,40,Miri Qalat,MH,Mature Harappan - 2500-1900BC,1,1,63.0125,26.03333333
+73,41,Mitathal,2000-1400BC,2000-1400BC,1,1,76.1698,28.8911
+74,42,Mohenjo-Daro,H,"Harappan, period undefined - 3200-1500BC",1,0,68.1167,27.3
+75,43,Nausharo,H,"Harappan, period undefined - 3200-1500BC",1,0,67.5878,29.3647
+76,44,Nindowari,MH,Mature Harappan - 2500-1900BC,1,0,66.0667,26.95
+78,45,Oriyo Timbo,MH,Mature Harappan - 2500-1900BC,1,1,71.6044,21.8867
+77,45,Oriyo Timbo,LH,Late harappan - 1900-1500BC,1,1,71.6044,21.8867
+79,46,Padri,EH,Early Harappan - 3200-2500BC,1,0,72.1094,21.3404
+80,47,Pirak,H,"Harappan, period undefined - 3200-1500BC",1,0,67.5,29.26
+81,47,Pirak,I,specific to Pirak - 1900-1300BC,1,0,67.5,29.26
+82,47,Pirak,II,specific to Pirak - 1300-1000BC,1,0,67.5,29.26
+83,48,Pithad,LH,Late harappan - 1900-1500BC,1,0,70.5333,22.6833
+84,49,Prabhas Pathan,H,"Harappan, period undefined - 3200-1500BC",1,0,70.5,20.7833
+85,50,Rakhigarhi,EH,Early Harappan - 3200-2500BC,1,0,76.1134,29.2915
+87,50,Rakhigarhi,MH,Mature Harappan - 2500-1900BC,1,0,76.1134,29.2915
+86,50,Rakhigarhi,H,"Harappan, period undefined - 3200-1500BC",1,0,76.1134,29.2915
+89,51,Rangpur,MH,Mature Harappan - 2500-1900BC,1,0,71.9219,22.3989
+88,51,Rangpur,LH,Late harappan - 1900-1500BC,1,0,71.9219,22.3989
+90,52,Rehman Dheri,EH,Early Harappan - 3200-2500BC,1,1,70.7667,31.95
+91,52,Rehman Dheri,MH,Mature Harappan - 2500-1900BC,1,1,70.7667,31.95
+92,53,Rohira,EH,Early Harappan - 3200-2500BC,1,1,75.8454,30.6417
+93,53,Rohira,MH,Mature Harappan - 2500-1900BC,1,0,75.8454,30.6417
+94,54,Rojdi,H,"Harappan, period undefined - 3200-1500BC",1,1,70.9189,21.8631
+95,54,Rojdi,H(A),specific to Rojdi - 2500-2200BC,1,1,70.9189,21.8631
+96,54,Rojdi,H(B),specific to Rojdi - 2200-2000BC,1,1,70.9189,21.8631
+97,54,Rojdi,H(C),specific to Rojdi - 2000-1700BC,1,1,70.9189,21.8631
+98,55,Rupar,H,"Harappan, period undefined - 3200-1500BC",1,0,76.53333333,30.96666667
+99,56,Sanghol,LH,Late harappan - 1900-1500BC,1,0,76.3892,30.7837
+100,57,Sanauli,LH,Late harappan - 1900-1500BC,1,0,77.2169,29.1411
+102,58,Shikarpur,MH,Mature Harappan - 2500-1900BC,1,1,70.6771,23.2376
+101,58,Shikarpur,H,"Harappan, period undefined - 3200-1500BC",1,1,70.6771,23.2376
+104,59,Shortughai,MH,Mature Harappan - 2500-1900BC,1,1,69.5,37.3
+105,59,Shortughai,MH-LH,less well defined transition between MH and LH,1,1,69.5,37.3
+103,59,Shortughai,LH,Late harappan - 1900-1500BC,1,1,69.5,37.3
+107,60,Surkotada,MH,Mature Harappan - 2500-1900BC,1,0,70.9173,23.6113
+106,60,Surkotada,LH,Late harappan - 1900-1500BC,1,0,70.9173,23.6113
+108,61,Tarakai Qila,EH,Early Harappan - 3200-2500BC,1,1,70.3833,32.9167
+109,62,Un,LH,Late harappan - 1900-1500BC,1,0,77.25,29.58333333
+110,63,Vaharvo Timbo,EH,Early Harappan - 3200-2500BC,1,1,71.33333,23.6667

@@ -1,0 +1,165 @@
+---
+title: "data_cleaning"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+rm(list = ls())
+
+library(tidyverse)
+library(here)
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+# Original Data: Periods
+periods <- read_csv(here('original_data/ICArchbotPeriods.csv'))
+# Original Data: Samples
+samples <- read_csv(here('original_data/ICArchbotSites.csv'))
+# Original Data: Taxa
+taxa <- read_csv(here('original_data/ICArchbotTaxa-1.csv'))
+# Taxa common names and domestication status
+taxa_common <- read_csv('original_data/taxa_common.csv')
+```
+
+```{r}
+# Standardizing the Period Codes for better table joins
+# Both Samples and Taxa
+
+periods <- periods %>%
+  rename('Period' = 'Period Code')
+
+samples$Period <- str_replace_all(
+  samples$Period,
+  c("H \\(A\\)" = "H(A)",
+    "H \\(B\\)" = "H(B)",
+    "LH \\(C \\)" = "H(C)",
+    "H\\?" = "H"))
+
+taxa$Period <- str_replace_all(
+  taxa$Period,
+  c("H \\(A\\)"   = "H(A)",
+    "H \\(B\\)"   = "H(B)",
+    "LH \\(C \\)" = "H(C)",
+    "H\\?" = "H"))
+
+samples <- samples %>%
+  left_join(periods, by = 'Period')
+
+# Periods table now irrelevant
+```
+
+```{r}
+# Renaming some columns to be easier to understand
+samples <- samples %>%
+  rename(c('site_id' = 'Number', 'site_name' = 'Site', 'period_code' = 'Period', 'period_desc' = 'Date Range and description')) %>%
+  select(-'SiteName')
+
+# Same with Taxa columns
+taxa <- taxa %>%
+  rename(c('site_name' = 'Site', 'period_code' = 'Period'))
+
+# Adding sample ID to Samples, and relocating important columns to the left
+samples <- samples %>%
+  group_by(across(everything())) %>%
+  mutate(sample_id = cur_group_id()) %>%
+  ungroup() %>%
+  relocate(sample_id, .before = 1) %>%
+  relocate(period_desc, .before = 5)
+
+samples <- samples %>%
+  mutate(period_desc = coalesce(period_desc, period_code))
+```
+
+```{r}
+# Making taxa names lower case
+names(taxa) <- tolower(names(taxa))
+
+# Joining site_name, period_code, sample_id, and site_id to taxa, and relocating them
+taxa <- taxa %>%
+  left_join(
+    samples %>% select(site_name, period_code, sample_id, site_id),
+    by = c("site_name", "period_code")) %>%
+  relocate(sample_id, .before = 1) %>%
+  relocate(site_id, .before = 2) %>%
+  select(-c(impressions, period_code)) # removing columns
+```
+
+```{r}
+# Changing 'x' and NA values to 1 and 0 binary values, in both Taxa and Samples
+
+taxa <- taxa %>%
+  mutate(across(
+    .cols = where(~ all(. %in% c("x", NA_character_))),
+    .fns  = ~ if_else(. == "x",
+                      "1",
+                      "0",
+                      missing = "0")))
+
+samples <- samples %>%
+  mutate(across(
+    .cols = where(~ any(. == "Y", na.rm = TRUE)),
+    .fns = ~ if_else(. == "Y",
+                     "1",
+                     "0",
+                     missing = "0")))
+
+# Removing unneeded columns, renaming lat/lon columns
+
+samples <- samples %>%
+  select(-c('quantified', 'rough quantantification', 'species list (period defined)', 'Species list (no period)', 'bot? not reported', 'flot but no botanical')) %>%
+  rename(c('longitude' = 'Co-ord E', 'latitude' = 'Co ord N'))
+```
+
+```{r}
+# NA Check
+anyNA(samples)
+anyNA(taxa)
+```
+
+```{r}
+# Moving on to the relation table
+# Each sample_id will repeat for every row that a taxon appears 
+
+relation_table <- taxa %>%
+  pivot_longer(cols = -c(site_id, sample_id, site_name),
+    names_to = "scientific_name",
+    values_to = "present") %>%
+  filter(present == 1) %>%
+  select(-present)  
+```
+
+```{r}
+# Joining taxa_common onto the relation table (created from taxa)
+relation_table <- relation_table %>%
+  left_join(taxa_common, by = 'scientific_name')
+```
+
+```{r}
+# Removing extra columns we no longer need in this table
+relation_table <- relation_table %>%
+  select(-c(site_id, site_name, scientific_name, common_name, domestication_status))
+```
+
+```{r}
+# Checking for any NAs
+relation_table %>% 
+  summarise(across(everything(), ~ sum(is.na(.))))
+
+relation_table <- relation_table %>%
+  drop_na()
+
+relation_table %>% 
+  summarise(across(everything(), ~ sum(is.na(.))))
+```
+
+```{r}
+# Writing files
+
+write_csv(relation_table, "data/relation_table.csv")
+write_csv(samples, "data/samples.csv")
+write_csv(taxa_common, "data/taxa_common.csv")
+```
