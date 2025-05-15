@@ -29,13 +29,6 @@ DBI::dbListTables(archbot)
 ```
 
 ```{r}
-# Save database tables to R dataframes
-samples <- tbl(archbot, 'samples')
-relation_table <- tbl(archbot, 'relation_table')
-taxa <- tbl(archbot, 'taxa')
-```
-
-```{r}
 # SQL function and query to find how many domesticated species are in a sample of choice
 st_sql <- read_file("sql/sample_taxa.sql")
 
