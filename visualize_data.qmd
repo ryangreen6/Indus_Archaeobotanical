@@ -13,11 +13,6 @@ library(here)
 library(dplyr)
 library(tidyr)
 
-# Libraries for mapping
-library(rnaturalearth)
-library(sf)
-library(tmap)
-
 # Database Libraries
 library(DBI)
 library(duckdb)
